@@ -1,0 +1,208 @@
+.field-1 {
+    position: relative;
+}
+.field-1 .video-bg-container {
+    height: fit-content;
+}
+.field-1 .video-bg-container video {
+    width: 100%;
+    height: 100%;
+}
+.field-1 .video-outer-wrapper {
+    height: 100%;
+    width: 1130px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.field-1 .video-outer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+}
+.field-1 .video-outer__col {
+    margin-bottom: 60px;
+    color: white;
+}
+.field-1 .video-outer__title {
+    font-family: "Klavika Medium Condensed", sans-serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.field-1 .video-outer__title:after {
+    content: "_";
+}
+.field-1 .video-outer__desc {
+    margin-bottom: 15px;
+}
+.field-1 .video-outer__desc h3 {
+    font-family: "Klavika Light", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.field-1 .video-outer__btn {
+    color: white;
+    border: 2px solid white;
+}
+.field-1 .video-outer__btn:hover {
+    cursor: pointer;
+    color: white;
+    background: rgba(205, 206, 206, 0.3);
+    border: 2px solid black;
+}
+
+.field-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 4%;
+}
+.field-2 .col {
+    display: grid;
+    align-items: start;
+}
+.field-2__media img {
+    width: 100%;
+    margin-bottom: 22px;
+}
+.field-2__title {
+    font-family: "Klavika Medium Condensed", sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.field-2__desc {
+    margin: 12px 0 10px;
+}
+.field-2__desc a {
+    text-decoration: none;
+    color: #0070c9;
+}
+.field-2__desc a:hover {
+    color: #626971;
+}
+.field-2__btn {
+    color: black;
+    border: 2px solid black;
+}
+.field-2__btn:hover {
+    cursor: pointer;
+    color: white;
+    background: black;
+    border: 2px solid black;
+}
+
+
+.field3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    padding: 50px 4%;
+    background-image: url("../../assets/images/together-we-advance_cloud-security.jpg");
+}
+.field3 .col .content {
+    display: grid;
+    justify-items: start;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+.field3__title {
+    color: white;
+    margin: 15px 0 5px 0;
+}
+.field3__title h2 {
+    display: inline;
+    font-family: "Klavika Medium Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.field3__title .left-side-title:after {
+    content: "_";
+}
+.field3__desc {
+    font-family: "Klavika Light", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 15px;
+}
+.field3__desc {
+    color: white;
+}
+.field3__btn {
+    color: white;
+    border: 2px solid white;
+}
+.field3__btn:hover {
+    cursor: pointer;
+    color: white;
+    background: rgba(205, 206, 206, 0.3);
+    border: 2px solid black;
+}
+
+.field4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: space-between;
+    grid-gap: 30px;
+    padding: 50px 4%;
+    background: rgba(0, 0, 0, 0.1);
+}
+.field4 .col {
+    display: flex;
+    flex-direction: column;
+}
+.field4 .col .media {
+    margin-bottom: 20px;
+}
+.field4 .col .media img {
+    width: 100%;
+}
+.field4 .col .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.field4 .col .content .title {
+    font-family: "Klavika Medium Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.field4 .col .content .desc {
+    flex-grow: 1;
+    font-family: "Klavika Light", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 15px;
+}
+.field4 .col .content .field4__btn {
+    color: black;
+    border: 2px solid black;
+}
+.field4 .col .content .field4__btn:hover {
+    cursor: pointer;
+    color: white;
+    background: black;
+    border: 2px solid black;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 1rem;
+    text-decoration: none !important;
+    background: transparent;
+    min-width: 200px;
+    max-width: 100%;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+}

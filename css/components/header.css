@@ -1,0 +1,79 @@
+.common-header {
+    padding: 0 4%;
+    background: black;
+}
+
+.common-header .navbar {
+    padding: 2rem 0;
+}
+
+.common-header .navbar-content-container {
+    display: flex;
+    align-items: center;
+}
+
+.common-header .logo {
+    padding-right: 4.5rem;
+}
+
+.common-header .logo__Link {
+    height: fit-content;
+}
+
+.common-header .logo__icon {
+    width: 7.25rem;
+}
+
+.common-header .nav__item {
+    cursor: pointer;
+    color: white;
+    margin-right: 3.5rem;
+    font-size: 1.1rem;
+    border-bottom: 2px solid transparent;
+}
+
+.common-header .nav__item:after {
+    margin-bottom: -2px;
+    display: block;
+    content: "";
+    border: 0;
+    border-bottom: 2px solid white;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    padding-top: 0.25rem;
+    margin-top: 0;
+}
+
+.common-header .nav__item:hover:after {
+    transform: scaleX(1);
+}
+
+.common-header .filler {
+    flex-grow: 1;
+}
+
+.common-header .nav-icons__item {
+    margin-left: 2rem;
+}
+
+.common-header .nav-icons__icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    transition: all 0.2s ease;
+    border-radius: 4px;
+}
+
+.common-header .nav-icons__icon:hover {
+    background-color: #282829;
+}
+
+.common-header .navbar .navbar-content-container ul li {
+    display: inline-block;
+    list-style-type: none;
+}

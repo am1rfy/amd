@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Noto Sans Medium'; 
+    src: url('../../assets/fonts/noto-sans-medium.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Klavika Medium Condensed';
+    src: url('../../assets/fonts/klavika-medium-condensed.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Klavika Light';
+    src: url('../../assets/fonts/klavika-light.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
