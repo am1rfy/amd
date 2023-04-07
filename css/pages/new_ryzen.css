@@ -1,0 +1,135 @@
+.field {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.field-1__header {
+    padding: 35px 0;
+}
+
+.field-1__header h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Klavika Medium Condensed';
+}
+
+.field-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url('../../assets/images/1536834-ryzen-black-segment-die-bg-right-1920x600.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+
+.field-2__desc-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: white;
+}
+
+.field-2__media-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.field-2__paragraph-1,
+.field-2__paragraph-2 {
+    font-family: 'Klavika Medium Condensed';
+    font-weight: 500;
+}
+
+.field-2__paragraph-1 {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+}
+
+.field-2__paragraph-2 {
+    font-size: 1.6rem;
+    line-height: normal;
+    margin: 1rem 0;
+    font-family: "Klavika Medium Condensed";
+}
+
+.field-2__btn {
+    color: white;
+    border: 2px solid white;
+    align-self: flex-start;
+}
+
+.field-2__btn:hover {
+    cursor: pointer;
+    color: white;
+    background: rgba(205, 206, 206, 0.3);
+    border: 2px solid black;
+}
+
+.field-3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    background-color: black;
+}
+
+.field-3 .col {
+    padding: 15px;
+}
+
+.field-3__media {
+    margin-bottom: 22px;
+}
+
+.field-3 img {
+    width: 100%;
+}
+
+.field-3__title {
+    font-family: 'Klavika Medium Condensed';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.field-3__subtitle {
+    font-family: 'Klavika Light';
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.field-3__desc {
+    font-size: 14px;
+    margin: 3px 0 10px;
+    text-align: left;
+}
+
+.field-4 {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.field-4__header {
+    font-size: 40px;
+    line-height: 100%;
+    margin-bottom: 5px;
+    margin-top: 22px;
+    font-weight: 500;
+    font-family: "Klavika Medium Condensed";
+}
+
+.field-4__table-column {
+    text-align: right;
+}
+
+.field-4__table-column:first-child {
+    text-align: left;
+}

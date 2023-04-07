@@ -1,0 +1,23 @@
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 1rem;
+    text-decoration: none !important;
+    background: transparent;
+    min-width: 200px;
+    max-width: 100%;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+}
+
+.link {
+    text-decoration: none;
+    color: #0070c9;
+}
+
+.link:hover {
+    color: #626971;
+}
