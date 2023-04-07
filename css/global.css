@@ -13,11 +13,25 @@
     white-space: normal;
 }
 
+.btn-transparent {
+	background: linear-gradient(
+		79.54deg,
+		rgba(50, 50, 50, 0.3) 16.78%,
+		rgba(90, 90, 90, 0.3) 46.33%,
+		hsla(0, 0%, 64%, 0.3) 73.76%,
+		hsla(0, 0%, 85%, 0.3) 94.21%
+	);
+}
+
+.btn-transparent:hover {
+	box-shadow: -1px 1px 0 #000, inset -1px 1px 0 hsla(0, 0%, 100%, 0.2);
+}
+
 .link {
-    text-decoration: none;
-    color: #0070c9;
+	text-decoration: none;
+	color: #0070c9;
 }
 
 .link:hover {
-    color: #626971;
+	color: #626971;
 }
