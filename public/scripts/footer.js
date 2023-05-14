@@ -29,8 +29,18 @@ document.querySelector('.accordion').addEventListener('click', () => {
         window.scrollTo(0, document.body.scrollHeight)
 })
 
-document.querySelector('.subscribe__form').addEventListener('submit', event => {
+const subscribeFormHTML = document.querySelector('.subscribe__form')
+
+subscribeFormHTML.addEventListener('submit', async event => {
     event.preventDefault()
+    const formData = new FormData(subscribeFormHTML)
+
+    const response = await fetch('/api/subscribe_news', {
+        method: 'post',
+        body: formData,
+    })
+
+    console.log(response)
 
     // показываем лоадинг
     pageLoading.toggleVisible()
@@ -40,6 +50,5 @@ document.querySelector('.subscribe__form').addEventListener('submit', event => {
     setTimeout(() => {
         pageLoading.toggleVisible()
         appContainer.classList.remove('is-loading')
-        window.location = 'https://www.amd.com/en/preferences/sign-up/thank-you.html'
     }, 2000)
 })
