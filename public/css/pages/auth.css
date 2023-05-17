@@ -15,6 +15,7 @@
     width: 20vw;
     padding: 1.6rem 2rem;
     margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
 .auth-action-label {
