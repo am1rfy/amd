@@ -1,0 +1,40 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/components/header.css">
+    <link rel="stylesheet" href="../css/components/footer.css">
+    <link rel="stylesheet" href="../css/components/loader.css">
+    <link rel="stylesheet" href="../css/pages/auth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    block head
+</head>
+<div id="app">
+    <main class="common-main">
+        <div class="auth-form-wrapper">
+            <div class="auth-action-label">
+                block auth-action
+            </div>
+
+            <form class="auth-form">
+                <div class="auth-form__field form-field">
+                    <label class="auth-form__label is-required" for="username">Username</label>
+                    <input class="auth-form__input" name="username">
+                </div>
+
+                <div class="auth-form__field form-field">
+                    <label class="auth-form__label is-required" for="password">Password</label>
+                    <input class="auth-form__input" name="password">
+                </div>
+
+                <div class="submit-btn-wrapper">
+                    <button class="auth-form__submit-btn form-submit-btn" type="submit">Enter</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>
