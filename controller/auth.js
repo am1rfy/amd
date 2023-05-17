@@ -21,8 +21,10 @@ class AuthController {
             const hashedPassword = bcrypt.hashSync(password, 7)
             const user = new User({ username, password: hashedPassword })
             await user.save()
+
+            const token = generateAccessToken({ id: user._id })
             return res.json({ 
-                message: 'user is successfully registered' 
+                token, message: 'user is successfully registered' 
             })
         } 
         catch (e) {
