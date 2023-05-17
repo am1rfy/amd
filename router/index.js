@@ -23,6 +23,20 @@ const routes = [
             res.render('together_we_advance')
         },
     },
+    {
+        name: 'login',
+        path: '/login',
+        handler: (req, res, next) => {
+            res.render('login')
+        },
+    },
+    {
+        name: 'register',
+        path: '/register',
+        handler: (req, res, next) => {
+            res.render('register')
+        },
+    },
 ]
 
 for (const route of routes)
